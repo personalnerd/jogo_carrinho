@@ -4,7 +4,7 @@
  * Joguinho estilo fliperama com movimentos simples, feito para estudo de HTML, CSS, JavaScript/jQuery
  * 
  * Author: Tarcisio Cavalcante / Personal Nerd
- * https://github.com/personalnerd/carrinho 
+ * https://github.com/personalnerd/jogo_carrinho 
  * http://www.personalnerd.net.br/carrinho
  * http://www.personalnerd.net.br/projetos
  * 
