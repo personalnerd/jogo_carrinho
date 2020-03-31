@@ -1,0 +1,107 @@
+/*
+ * 
+ * CARRINHO
+ * Joguinho estilo fliperama com movimentos simples, feito para estudo de HTML, CSS, JavaScript/jQuery
+ * 
+ * Author: Tarcisio Cavalcante / Personal Nerd
+ * https://github.com/personalnerd/carrinho 
+ * http://www.personalnerd.net.br/carrinho
+ * http://www.personalnerd.net.br/projetos
+ * 
+ */
+
+body {
+    background-color: #030606;
+	overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    width: 500px;
+}
+
+div#jogo {
+    width: 800px;
+    height: 620px;
+    background: top center url(img/bg.jpg) no-repeat;
+    margin: auto;
+    padding-top: 180px;
+}
+
+div#tela {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+div#tela pre {
+    margin: 0;
+}
+
+#carro {
+    color: #801111;
+    position: relative;
+    top: -1em;
+}
+#carro span {
+    color: transparent;
+}
+    
+div.col {
+    width: 135px;
+    float: left;    
+    color: #105f4c;
+}
+
+div.col .info {
+    color: black;
+}
+
+div#recorde {
+    margin-top: 20px;
+    display: none;
+}
+
+div#corrida {
+    float: left;
+    width: 230px;
+}
+
+div#pausa {
+    display: none;
+    top: -200px;
+    width: 120px;
+    background-color: #3aa68e;
+    margin: auto;
+    position: relative;
+    padding: 15px;
+    border-width: 5px;
+    border-style: double;
+    box-shadow: 5px 5px 0;
+    animation-duration: 1.5s;
+}
+
+div#inst, div#personalnerd {
+    font-size: .7em;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    height: 50px;
+}
+div#inst {
+    text-align: left;
+}
+
+#personalnerd a {
+    color: #105f4c;
+}
+
+#voltar {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    animation-duration: 1.5s;
+}

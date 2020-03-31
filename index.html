@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2894329-4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments)};
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-2894329-4');
+	</script>
+	
+	
+        <title>CARRINHO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Tarcisio Cavalcante / Personal Nerd">
+        <meta name="description" content="Joguinho de carro estilo fliperama com movimentos simples, feito para estudo de HTML, CSS, JavaScript/jQuery">
+        <meta name="keywords" content="desenvolvimento, html, css, javascript, jquery, jogo, game, carrinho, carro, corrida, fliperama, atari">
+        <meta http-equiv="content-language" content="pt-br" />
+
+        <link href="normalize.css" rel="stylesheet"/>
+        <link href="estilo.css" rel="stylesheet"/>
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        
+        <div id="jogo">
+            <div id="tela">
+                <div id="logo"><img src="img/carrinho.png" /></div>
+                <div class="col">
+                    <div id="inst">
+                        (↑) Acelerar<br />
+                        (↓) Reduzir<br />
+                        (←) Esquerda<br />
+                        (→) Direita<br />
+                        (espaço) Pausa
+                    </div>
+                    Velocidade:
+                    <div class="info"><span id="veloc">0</span> km/h</div>
+                    
+                    <div id="voltar" class="animated infinite flash">
+                        Pressione ESPAÇO para iniciar novamente.
+                    </div>  
+                    
+                </div>
+                
+                <div id="corrida">
+                    <pre style="display:none;" id="lin0"></pre>
+                    <pre  id="lin1">║    |    |    |    ║</pre>
+                    <pre  id="lin2">║                   ║</pre>
+                    <pre  id="lin3">║    |    |    |    ║</pre>
+                    <pre  id="lin4">║                   ║</pre>
+                    <pre  id="lin5">║    |    |    |    ║</pre>
+                    <pre  id="lin6">║                   ║</pre>
+                    <pre  id="lin7">║    |    |    |    ║</pre>
+                    <pre  id="lin8">║                   ║</pre>
+                    <pre  id="lin9">║    |    |    |    ║</pre>
+                    <pre id="lin10">║                   ║</pre>
+                    <pre id="lin11">║    |    |    |    ║</pre>
+                    <pre id="lin12">║                   ║</pre>
+                    <pre id="lin13">║    |    |    |    ║</pre>
+                    <pre id="lin14">║                   ║</pre>
+                    <pre id="carro"><span>e</span>         █         <span>d</span></pre>                    
+                    
+                    <div id="pausa" class="animated infinite flash">
+                        P A U S E
+                    </div>                                        
+                </div>
+                
+                <div class="col">
+                    <div id="personalnerd"><a href="http://www.personalnerd.net.br" target="_blank">Personal Nerd</a></div>
+                    Pontuação:
+                    <div class="info" id="score">0</div>
+                    <div id="recorde">
+                        Recorde:<br />
+                        <span></span>
+                    </div>                    
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
