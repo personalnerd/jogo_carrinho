@@ -5,7 +5,7 @@
  * 
  * Author: Tarcisio Cavalcante / Personal Nerd
  * https://github.com/personalnerd/jogo_carrinho 
- * http://www.personalnerd.net.br/carrinho
+ * http://personalnerd.net.br/jogocarrinho/
  * http://www.personalnerd.net.br/projetos
  * 
  */
